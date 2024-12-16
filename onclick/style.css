@@ -1,0 +1,95 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f4e6f3;
+    color: #121212;
+  
+}
+
+header {
+  
+    background: #5fadc6;
+    color: #080808;
+    padding: 0px 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #cac7c7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+article {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+article h2 {
+    font-size: 2rem;
+    color: #0e0e0e;
+    font-style: italic;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #207ee1;
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.read-more:hover {
+    color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #5090a5;
+    color: #070707;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer:hover {
+    text-align: center;
+    padding: 10px 0;
+    background: #1b1a1a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+header:hover {
+    background: #131313;
+    color: #fff;
+    padding: 0px 10px;
+    text-align: center;
+}
+.container:hover {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #dcd8d8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
